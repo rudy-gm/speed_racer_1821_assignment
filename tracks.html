@@ -1,16 +1,15 @@
+<!doctype html>
+<html lang="en">
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Speed Racer – Page Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Speed Racer – Race Tracks</title>
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.x/dist/css/bootstrap.min.css" rel="stylesheet">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- Your custom CSS -->
+  <!-- Custom CSS -->
   <link href="css/site.css" rel="stylesheet">
 </head>
 <body>
@@ -18,7 +17,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">⚡Mach 5⚡</a>
-      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navMenu">
@@ -26,20 +25,66 @@
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="characters.html">Characters</a></li>
           <li class="nav-item"><a class="nav-link" href="episodes.html">Episodes</a></li>
-          <li class="nav-item"><a class="nav-link active" href="tracks.html">Race Tracks</a></li>
-          <li class="nav-item"><a class="nav-link" href="design.html">Design</a></li>
+          <li class="nav-item"><span class="nav-link active">Race Tracks</span></li>
+          <li class="nav-item"><a class="nav-link" href="design.html">Design Discussion</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Page content goes here -->
+  <!-- Tracks Overview -->
+  <section class="container pt-5 my-5">
+    <h1 class="display-4 text-center mb-4">Famous Race Tracks</h1>
+    <p class="lead text-center">Explore the most iconic circuits where Speed Racer and his rivals battled for glory.</p>
+  </section>
+
+  <!-- Track 1: Mount Fuji Speedway -->
+  <section class="container my-5">
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <img src="img/fuji-circuit-guide.jpg" class="img-fluid w-25 float-start me-3 mb-3" alt="Mount Fuji Speedway track">
+        <h2 class="h3 mt-3 mb-3 border-bottom pb-2">Mount Fuji Speedway</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur tortor vitae purus sagittis, quis egestas arcu vulputate. Phasellus accumsan, libero sit amet laoreet hendrerit, urna mi bibendum mauris, a dapibus nulla nisl at nulla.</p>
+      </div>
+      <div class="col-md-6">
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam a dolor vel orci gravida cursus. Curabitur eget ex nec mi ultricies cursus vitae at elit.</p>
+      </div>
+    </div>
+
+    <!-- Track 2: Mach 5 Test Course -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6 order-md-2">
+        <img src="img/testCourse.jpg" class="img-fluid w-25 float-end ms-3 mb-3" alt="Mach 5 Test Course">
+        <h2 class="h3 mt-3 mb-3 border-bottom pb-2 text-end">Mach 5 Test Course</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus enim vitae lacus fermentum, vitae scelerisque libero gravida. Fusce in mauris in arcu bibendum hendrerit.</p>
+      </div>
+      <div class="col-md-6 order-md-1">
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      </div>
+    </div>
+
+    <!-- Track 3: Desert Dash Circuit -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <img src="img/desertRace.jpg" class="img-fluid w-25 float-start me-3 mb-3" alt="Desert Dash Circuit">
+        <h2 class="h3 mt-3 mb-3 border-bottom pb-2">Desert Dash Circuit</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia, quam vitae cursus tincidunt, metus massa aliquet dolor, at pretium sem lectus eget purus.</p>
+      </div>
+      <div class="col-md-6">
+        <p>Nullam tincidunt sapien nec tortor porttitor, quis fringilla est bibendum. Pellentesque habitant morbi tristique senectus et netus et.</p>
+      </div>
+    </div>
+
+  </section>
 
   <!-- Footer -->
-  <footer class="py-4 text-center">
-    <p>© 2025 Speed Racer Fan Site</p>
+  <footer class="py-4 bg-dark text-light">
+    <div class="container text-center">
+      <p>&copy; 2025 Speed Racer Fan Site</p>
+    </div>
   </footer>
 
-  <!-- Bootstrap JS bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.x/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>
