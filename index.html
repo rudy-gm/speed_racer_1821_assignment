@@ -1,16 +1,15 @@
+<!doctype html>
+<html lang="en">
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Speed Racer – Page Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Speed Racer – Home</title>
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.x/dist/css/bootstrap.min.css" rel="stylesheet">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- Your custom CSS -->
+  <!-- Custom CSS -->
   <link href="css/site.css" rel="stylesheet">
 </head>
 <body>
@@ -18,28 +17,82 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">⚡Mach 5⚡</a>
-      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><span class="nav-link active">Home</span></li>
           <li class="nav-item"><a class="nav-link" href="characters.html">Characters</a></li>
           <li class="nav-item"><a class="nav-link" href="episodes.html">Episodes</a></li>
           <li class="nav-item"><a class="nav-link" href="tracks.html">Race Tracks</a></li>
-          <li class="nav-item"><span class="nav-link">Design </span></li>
+          <li class="nav-item"><a class="nav-link" href="design.html">Design Discussion</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Page content goes here -->
+  <!-- Hero Section -->
+  <section class="container my-5 pt-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="img/speed-racer.webp" class="img-fluid float-start me-3 mb-3" alt="The Mach 5 racing towards finish line">
+        <h1>Welcome to the World of Speed Racer</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum. Curabitur pretium tincidunt lacus, in vulputate orci volutpat sed.
+          Integer facilisis facilisis lacus vel fringilla. Vivamus eget ex ac purus vehicula suscipit. Donec sed libero at lectus volutpat
+          posuere.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/Speed-Racer_portrait.jpg" class="img-fluid float-end ms-3 mb-3" alt="Speed Racer portrait">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod, justo sit amet varius dapibus, odio purus luctus leo,
+          non dignissim nisl justo id dui. Maecenas posuere, sapien sit amet commodo rhoncus, orci sapien feugiat quam, quis pulvinar velit
+          ipsum sit amet arcu. Suspendisse tristique lobortis neque, at feugiat velit. Nam viverra, erat eget consectetur finibus, justo dui
+          mollis erat, nec egestas justo nisi in velit. Proin nec nisl sit amet lectus convallis vehicula. Fusce sit amet orci sit amet urna
+          pharetra aliquet.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Section -->
+  <section class="container my-5">
+    <h2>Why Follow Speed Racer?</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/speed-racer-racing.jpg" class="img-fluid float-start me-3 mb-3" alt="High-speed racing action">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac libero quis orci venenatis commodo vel ac dui. Vestibulum ante
+          ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis ultricies elit vitae risus facilisis, eu mattis
+          sem pretium. Integer vehicula ligula non purus fermentum, in consequat augue fringilla. Donec nec magna id metus gravida egestas.
+          Sed eu lacus vitae lorem tincidunt malesuada. Vivamus a gravida odio.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/speed-racer-track.webp" class="img-fluid float-end ms-3 mb-3" alt="Race track overview">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut ex vitae velit pharetra fermentum. Curabitur finibus
+          ultrices orci, sed fermentum lectus bibendum at. Nulla facilisi. Praesent scelerisque, mauris vitae euismod molestie, lectus
+          lacus venenatis purus, nec ultrices lectus elit non lorem. Donec malesuada facilisis neque, in fringilla mi malesuada vitae.
+          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        </p>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
-  <footer class="py-4 text-center">
-    <p>© 2025 Speed Racer Fan Site</p>
+  <footer class="py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 Speed Racer Fan Site</p>
+    </div>
   </footer>
 
-  <!-- Bootstrap JS bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.x/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>
